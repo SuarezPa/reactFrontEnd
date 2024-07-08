@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
           Edita el archivo <code>src/App.js</code> y guarda para recargar.
         </p>
@@ -17,9 +18,16 @@ function App() {
         >
           Learn React
         </a>
+        <Header/>
       </header>
     </div>
   );
+}
+
+function Header (){
+  return (
+    <h1>Preba nuevo componente de React.JS</h1>
+  )
 }
 
 export default App;
