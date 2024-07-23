@@ -1,6 +1,7 @@
+import './CreateTodoButton.css'
 function CreateTodoButton() {
     return(
-        <button> Add to favorites </button>
+        <button> Add todo pending.</button>
     );
 }
 

@@ -14,9 +14,14 @@ const defaultTodos = [
 function App() {
   return (
     <React.Fragment>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+      <div class ="title">
       <TodoCounter complete={5} total={15}/>
+      </div>
+      <div class = "content">
       <TodoSearch />
-
       <TodoList>
         { defaultTodos.map (todo => (
        <TodoItem 
@@ -28,6 +33,7 @@ function App() {
       </TodoList>
 
       <CreateTodoButton />
+      </div>
     </React.Fragment>
   );
 }

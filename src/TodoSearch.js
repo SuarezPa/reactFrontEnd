@@ -1,7 +1,7 @@
 import './TodoSearch.css'
 function TodoSearch(){
     return (
-     <input placeholder="Escribe todo pendiente por realizar" />
+            <input placeholder="Escribe todo pendiente por realizar" />    
     );
 }
 

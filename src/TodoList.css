@@ -1,0 +1,4 @@
+ul {
+    display: flexbox;
+    flex-direction: column;
+}
