@@ -1,0 +1,18 @@
+button {
+    height: 28px;
+    width: 280px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold;
+}
+
+button :active {
+    background-color: #3e8e41;
+  }
